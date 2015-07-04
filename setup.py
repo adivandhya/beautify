@@ -2,7 +2,10 @@ from distutils.core import setup
 setup(
   name = 'beautify',
   packages = ['beautify'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.1.3',
+  install_requires=[
+        "requests",
+    ],
   description = 'Simplifies the process of formatting and printing beautiful and responsive output in terminals',
   author = 'Adivandhya B R',
   author_email = 'adivandhya@yahoo.co.in',
